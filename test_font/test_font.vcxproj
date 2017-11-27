@@ -112,6 +112,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cmap.hpp" />
+    <ClInclude Include="helper.hpp" />
+    <ClInclude Include="ttfx.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

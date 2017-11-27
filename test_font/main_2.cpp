@@ -79,7 +79,7 @@ std::unordered_map<std::string, table> tables;
 std::vector<uint16_t> unicode_to_glyph;
 
 int
-main() {
+main_2() {
   std::ifstream font("Inconsolata-Regular.ttf", std::ios::binary);
   printf("font good? %i\n", font.is_open());
 
